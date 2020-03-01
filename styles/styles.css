@@ -1,0 +1,105 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+}
+.header{
+  height: 100%;
+    background-image: url(/img/hero-homepage-2019-1800x1185.jpg);
+    /**filter: brightness(60%);**/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-main{
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 28px;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    margin: 30px;
+    width: 60%;
+    font-style: normal;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: rgb(201, 201, 1);
+  }
+
+.radius-bg{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 201, 1);
+}
+
+li:last-child a:hover {
+    color: white;
+  }
+
+.header-main{
+    position: relative;
+    height: 80vh;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+  .main-box{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+  .main-box > div{
+    width: calc(100% / 4);
+    height: 300px;
+    padding: 20px;
+}
+
+.main-box > div:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+.inner-bg {
+  background: rgba(40,42,45,.5);
+}
+
+.main-box i{
+  font-size: 50px;
+  color: rgb(201, 201, 1);
+}
+
+p{
+  margin-bottom: 50px;
+}
+
+.main-box div > .radius-bg{
+  display: inline;
+  padding: 10px 20px;
+}
+
+
